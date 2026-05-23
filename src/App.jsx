@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./index.css";
+
 const CAROUSEL_SLIDES = [
   {
     id: 1,
@@ -26,7 +27,6 @@ const PRODUCTS = [
     id: 1,
     name: "PowerBank",
     category: "Electrónica",
-    price: 20,
     description:
       "Manten tu dispositivo siempre cargado con este PowerBank de alta capacidad, perfecto para viajes y uso diario.",
     image: "src/assets/Powerbang.jfif",
@@ -35,7 +35,6 @@ const PRODUCTS = [
     id: 2,
     name: "Mini UPS",
     category: "Electrónica",
-    price: 40,
     description:
       "Protege tus dispositivos contra cortes de energía con este Mini UPS compacto y eficiente, ideal para computadoras y equipos electrónicos.",
     image: "src/assets/ups.jfif",
@@ -44,7 +43,6 @@ const PRODUCTS = [
     id: 3,
     name: "Planca de cabello",
     category: "Electrónica",
-    price: 35,
     description:
       "Plancha de cabello profesional con tecnología de cerámica avanzada para un alisado rápido y sin daños, perfecta para todo tipo de cabello.",
     image: "src/assets/otraplancha.jfif",
@@ -53,7 +51,6 @@ const PRODUCTS = [
     id: 4,
     name: "Bombillo Recargable",
     category: "Electrónica",
-    price: 25,
     description:
       "Bombillo recargable con iluminación LED de alta calidad, ideal para uso doméstico y exterior.",
     image: "src/assets/bombillorecargable.jfif",
@@ -62,7 +59,6 @@ const PRODUCTS = [
     id: 5,
     name: "Teclado Gaming",
     category: "Electrónica",
-    price: 20,
     description:
       "Teclado gaming mecánico con retroiluminación RGB personalizable, diseñado para ofrecer una experiencia de juego superior y durabilidad.",
     image: "src/assets/Tecladogaming.jfif",
@@ -71,7 +67,6 @@ const PRODUCTS = [
     id: 6,
     name: "Telado de oficina",
     category: "Electrónica",
-    price: 40,
     description:
       "Teclado de oficina con diseño ergonómico y teclas silenciosas, ideal para largas jornadas de trabajo y productividad.",
     image: "src/assets/Tecladomembrana.jfif",
@@ -80,7 +75,6 @@ const PRODUCTS = [
     id: 7,
     name: "Planca de cabello",
     category: "Electrónica",
-    price: 35,
     description:
       "Plancha de cabello profesional con tecnología de cerámica avanzada para un alisado rápido y sin daños, perfecta para todo tipo de cabello.",
     image: "src/assets/Plancha.jfif",
@@ -89,7 +83,6 @@ const PRODUCTS = [
     id: 8,
     name: "Audifonos gaming",
     category: "Electrónica",
-    price: 25,
     description:
       "Auriculares gaming con sonido envolvente 7.1, micrófono ajustable y diseño cómodo para largas sesiones de juego.",
     image: "src/assets/audifonos_gamernt.jfif",
@@ -98,7 +91,6 @@ const PRODUCTS = [
     id: 9,
     name: "Audifonos inalámbricos de Avengers",
     category: "Electrónica",
-    price: 20,
     description:
       "Auriculares inalámbricos con diseño exclusivo de Avengers, sonido de alta calidad y batería de larga duración para disfrutar de tu música y juegos favoritos.",
     image: "src/assets/audifonos_inalam_avengers.jfif",
@@ -107,7 +99,6 @@ const PRODUCTS = [
     id: 10,
     name: "Audifonos inalámbricos azules",
     category: "Electrónica",
-    price: 40,
     description:
       "Auriculares inalámbricos con diseño moderno en color azul, sonido de alta fidelidad y batería de larga duración para una experiencia auditiva excepcional.",
     image: "src/assets/audifonos_inalam_azules.jfif",
@@ -116,7 +107,6 @@ const PRODUCTS = [
     id: 11,
     name: "Audifonos inalámbricos azules oscuros",
     category: "Electrónica",
-    price: 35,
     description:
       "Auriculares inalámbricos con diseño moderno en color azul oscuro, sonido de alta fidelidad y batería de larga duración para una experiencia auditiva excepcional.",
     image: "src/assets/audifonos_inalam_azulesoscuros.jfif",
@@ -125,7 +115,6 @@ const PRODUCTS = [
     id: 12,
     name: "audifonos inalámbricos kuromi",
     category: "Electrónica",
-    price: 25,
     description:
       "Auriculares inalámbricos con diseño exclusivo de Kuromi, sonido de alta calidad y batería de larga duración para disfrutar de tu música y juegos favoritos.",
     image: "src/assets/audifonos_inalam_kurumi.jfif",
@@ -134,7 +123,6 @@ const PRODUCTS = [
     id: 14,
     name: "Mini UPS",
     category: "Electrónica",
-    price: 40,
     description:
       "Auriculares inalámbricos con cancelación de ruido activa y sonido de alta fidelidad.",
     image: "src/assets/audifonos_inalam_mario.jfif",
@@ -143,7 +131,6 @@ const PRODUCTS = [
     id: 15,
     name: "audifonos inalámbricos rosas",
     category: "Electrónica",
-    price: 35,
     description:
       "Auriculares inalámbricos con diseño moderno en color rosa, sonido de alta fidelidad y batería de larga duración para una experiencia auditiva excepcional.",
     image: "src/assets/audifonos_inalam_rosa.jfif",
@@ -152,7 +139,6 @@ const PRODUCTS = [
     id: 16,
     name: "audifonos inalámbricos stich",
     category: "Electrónica",
-    price: 25,
     description:
       "Auriculares inalámbricos con diseño exclusivo de Stich, sonido de alta calidad y batería de larga duración para disfrutar de tu música y juegos favoritos.",
     image: "src/assets/audifonos_stich.jfif",
@@ -161,7 +147,6 @@ const PRODUCTS = [
     id: 17,
     name: "Camara de seguimiento automático",
     category: "Electrónica",
-    price: 20,
     description:
       "Cámara de seguimiento automático con sensor de movimiento y lente de alta resolución.",
     image: "src/assets/cam_auto_tracking.jfif",
@@ -170,7 +155,6 @@ const PRODUCTS = [
     id: 18,
     name: "Soporte para teléfono para carro",
     category: "Electrónica",
-    price: 40,
     description:
       "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
     image: "src/assets/car_telf_supp.jfif",
@@ -179,7 +163,6 @@ const PRODUCTS = [
     id: 19,
     name: "Soporte para teléfono para carro",
     category: "Electrónica",
-    price: 35,
     description:
       "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
     image: "src/assets/car_telf_supp2.jfif",
@@ -188,7 +171,6 @@ const PRODUCTS = [
     id: 20,
     name: "Corneta Karaoke",
     category: "Electrónica",
-    price: 25,
     description:
       "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
     image: "src/assets/cornetica_karaoke.jfif",
@@ -197,7 +179,6 @@ const PRODUCTS = [
     id: 21,
     name: "Corneta karaoke",
     category: "Electrónica",
-    price: 20,
     description:
       "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
     image: "src/assets/cornetica_karaoke2.jfif",
@@ -206,7 +187,6 @@ const PRODUCTS = [
     id: 22,
     name: "Corneta con linterna integrada",
     category: "Electrónica",
-    price: 40,
     description:
       "Corneta con linterna integrada, ideal para uso en exteriores y emergencias.",
     image: "src/assets/cornetica_liternita.jfif",
@@ -215,7 +195,6 @@ const PRODUCTS = [
     id: 23,
     name: "Corneta",
     category: "Electrónica",
-    price: 35,
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
     image: "src/assets/cornetica.jfif",
@@ -224,7 +203,6 @@ const PRODUCTS = [
     id: 24,
     name: "Corneta",
     category: "Electrónica",
-    price: 25,
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
     image: "src/assets/cornetica2.jfif",
@@ -233,7 +211,6 @@ const PRODUCTS = [
     id: 25,
     name: "Corneta",
     category: "Electrónica",
-    price: 20,
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
     image: "src/assets/cornetica3.jfif",
@@ -242,7 +219,6 @@ const PRODUCTS = [
     id: 26,
     name: "Go Pro",
     category: "Electrónica",
-    price: 40,
     description:
       "Cámara de acción GoPro con alta resolución, resistente al agua y con estabilización de imagen avanzada para capturar tus aventuras más emocionantes.",
     image: "src/assets/go_pro_temu.jfif",
@@ -251,7 +227,6 @@ const PRODUCTS = [
     id: 27,
     name: "TV BOX",
     category: "Electrónica",
-    price: 35,
     description:
       "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
     image: "src/assets/hdtv.jfif",
@@ -260,7 +235,6 @@ const PRODUCTS = [
     id: 28,
     name: "Proyector portátil",
     category: "Electrónica",
-    price: 25,
     description:
       "Proyector portátil con alta resolución y tecnología de imagen avanzada para una experiencia de visualización inmersiva.",
     image: "src/assets/home trate.jfif",
@@ -269,7 +243,6 @@ const PRODUCTS = [
     id: 29,
     name: "Lampara de mesa",
     category: "Electrónica",
-    price: 20,
     description:
       "Lámpara de mesa con diseño moderno y luz LED ahorradora de energía.",
     image: "src/assets/lamp_mesa.jfif",
@@ -278,7 +251,6 @@ const PRODUCTS = [
     id: 30,
     name: "Llavaro reloj",
     category: "Electrónica",
-    price: 40,
     description:
       "Llavero con reloj digital, ideal para llevar siempre contigo.",
     image: "src/assets/llavero_reloj.jfif",
@@ -287,7 +259,6 @@ const PRODUCTS = [
     id: 31,
     name: "Peso Metro",
     category: "Electrónica",
-    price: 35,
     description:
       "Peso metro digital con pantalla LCD, ideal para medir peso de objetos pequeños con precisión.",
     image: "src/assets/peso_metro.jfif",
@@ -296,7 +267,6 @@ const PRODUCTS = [
     id: 32,
     name: "Secador de zapatos",
     category: "Electrónica",
-    price: 25,
     description:
       "Secador de zapatos con tecnología de calor rápido y seguridad integrada.",
     image: "src/assets/shoe_dryer.jfif",
@@ -305,7 +275,6 @@ const PRODUCTS = [
     id: 33,
     name: "Sopladora de aire",
     category: "Electrónica",
-    price: 20,
     description:
       "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
     image: "src/assets/storm_machine.jfif",
@@ -314,7 +283,6 @@ const PRODUCTS = [
     id: 34,
     name: "Soporte para teléfono de mesa",
     category: "Electrónica",
-    price: 40,
     description:
       "Soporte para teléfono de mesa con diseño moderno y material de alta calidad.",
     image: "src/assets/supp_tel_mesa.jfif",
@@ -323,7 +291,6 @@ const PRODUCTS = [
     id: 35,
     name: "Soplador de aire a presion",
     category: "Electrónica",
-    price: 35,
     description:
       "Soplador de aire a presion potente para limpiar superficies y áreas difíciles de alcanzar.",
     image: "src/assets/storm_machine.jfif",
@@ -332,20 +299,370 @@ const PRODUCTS = [
     id: 36,
     name: "TV BOX",
     category: "Electrónica",
-    price: 25,
     description:
       "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
     image: "src/assets/tv_box.jfif",
   },
   {
     id: 37,
-      name: "Ventilador doble",
+    name: "Ventilador doble",
     category: "Electrónica",
-    price: 20,
     description:
       "Ventilador doble con tecnología de enfriamiento avanzada y diseño moderno.",
     image: "src/assets/ventilador_doble.jfif",
-  }
+  },
+  {
+    id: 38,
+    name: "Soporte para teléfono para carro",
+    category: "Electrónica",
+    description:
+      "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
+    image: "src/assets/calculadora.jfif",
+  },
+  {
+    id: 39,
+    name: "Soporte para teléfono para carro",
+    category: "Electrónica",
+    description:
+      "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
+    image: "src/assets/Adaptador_Laptops.jfif",
+  },
+  {
+    id: 40,
+    name: "Corneta Karaoke",
+    category: "Electrónica",
+    description:
+      "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
+    image: "src/assets/microfono.jfif",
+  },
+  {
+    id: 41,
+    name: "Corneta karaoke",
+    category: "Electrónica",
+    description:
+      "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
+    image: "src/assets/Adaptador_TipoC.jfif",
+  },
+  {
+    id: 42,
+    name: "Corneta con linterna integrada",
+    category: "Electrónica",
+    description:
+      "Corneta con linterna integrada, ideal para uso en exteriores y emergencias.",
+    image: "src/assets/llavero_recargable.jfif",
+  },
+  {
+    id: 43,
+    name: "Corneta",
+    category: "Electrónica",
+    description:
+      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+    image: "src/assets/Sistema_audio_motos.jfif",
+  },
+  {
+    id: 44,
+    name: "Corneta",
+    category: "Electrónica",
+    description:
+      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+    image: "src/assets/proyector_astronauta.jfif",
+  },
+  {
+    id: 45,
+    name: "Corneta",
+    category: "Electrónica",
+    description:
+      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+    image: "src/assets/repetidor_wifi.jfif",
+  },
+  {
+    id: 46,
+    name: "Go Pro",
+    category: "Electrónica",
+    description:
+      "Cámara de acción GoPro con alta resolución, resistente al agua y con estabilización de imagen avanzada para capturar tus aventuras más emocionantes.",
+    image: "src/assets/estimulador_portatil.jfif",
+  },
+  {
+    id: 47,
+    name: "TV BOX",
+    category: "Electrónica",
+    description:
+      "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
+    image: "src/assets/multimetro.jfif",
+  },
+  {
+    id: 48,
+    name: "Proyector portátil",
+    category: "Electrónica",
+    description:
+      "Proyector portátil con alta resolución y tecnología de imagen avanzada para una experiencia de visualización inmersiva.",
+    image: "src/assets/arrancador_carros.jfif",
+  },
+  {
+    id: 49,
+    name: "Lampara de mesa",
+    category: "Electrónica",
+    description:
+      "Lámpara de mesa con diseño moderno y luz LED ahorradora de energía.",
+    image: "src/assets/digital_layer.jfif",
+  },
+  {
+    id: 50,
+    name: "Llavaro reloj",
+    category: "Electrónica",
+    description:
+      "Llavero con reloj digital, ideal para llevar siempre contigo.",
+    image: "src/assets/Modulo_amplificador.jpeg",
+  },
+  {
+    id: 51,
+    name: "Peso Metro",
+    category: "Electrónica",
+    description:
+      "Peso metro digital con pantalla LCD, ideal para medir peso de objetos pequeños con precisión.",
+    image: "src/assets/Modulo_pasivo1.jpeg",
+  },
+  {
+    id: 52,
+    name: "Secador de zapatos",
+    category: "Electrónica",
+    description:
+      "Secador de zapatos con tecnología de calor rápido y seguridad integrada.",
+    image: "src/assets/placa_pasiva.jpeg",
+  },
+  {
+    id: 53,
+    name: "Sopladora de aire",
+    category: "Electrónica",
+    description:
+      "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
+    image: "src/assets/categoria_hogar/afeitadora_mediana.jfif",
+  },
+  {
+    id: 54,
+    name: "Soporte para teléfono de mesa",
+    category: "Electrónica",
+    description:
+      "Soporte para teléfono de mesa con diseño moderno y material de alta calidad.",
+    image: "src/assets/categoria_hogar/bateria_recargable.jfif",
+  },
+  {
+    id: 55,
+    name: "Soplador de aire a presion",
+    category: "Electrónica",
+    description:
+      "Soplador de aire a presion potente para limpiar superficies y áreas difíciles de alcanzar.",
+    image: "src/assets/categoria_hogar/Clavadora_ de_ acero.jfif",
+  },
+  {
+    id: 56,
+    name: "TV BOX",
+    category: "Electrónica",
+    description:
+      "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
+    image: "src/assets/categoria_hogar/codera.jfif",
+  },
+  {
+    id: 57,
+    name: "Ventilador doble",
+    category: "Electrónica",
+    description:
+      "Ventilador doble con tecnología de enfriamiento avanzada y diseño moderno.",
+    image: "src/assets/categoria_hogar/codera.jfif",
+  },
+  {
+    id: 58,
+    name: "Sopladora de aire",
+    category: "Electrónica",
+    description:
+      "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
+    image: "src/assets/categoria_hogar/collarin.jfif",
+  },
+  {
+    id: 59,
+    name: "Soporte para teléfono de mesa",
+    category: "Electrónica",
+    description:
+      "Soporte para teléfono de mesa con diseño moderno y material de alta calidad.",
+    image: "src/assets/categoria_hogar/corrector_de_postura.jfif",
+  },
+  {
+    id: 60,
+    name: "Soplador de aire a presion",
+    category: "Electrónica",
+    description:
+      "Soplador de aire a presion potente para limpiar superficies y áreas difíciles de alcanzar.",
+    image: "src/assets/categoria_hogar/corrector_de_postura2.jfif",
+  },
+  {
+    id: 61,
+    name: "TV BOX",
+    category: "Electrónica",
+    description:
+      "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
+    image: "src/assets/categoria_hogar/escencia_aromatica.jfif",
+  },
+  {
+    id: 62,
+    name: "Ventilador doble",
+    category: "Electrónica",
+    description:
+      "Ventilador doble con tecnología de enfriamiento avanzada y diseño moderno.",
+    image: "src/assets/categoria_hogar/estimulador_muscular.jfif",
+  },
+  {
+    id: 63,
+    name: "Soporte para teléfono para carro",
+    category: "Electrónica",
+    description:
+      "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
+    image: "src/assets/categoria_hogar/headlamp.jfif",
+  },
+  {
+    id: 64,
+    name: "Soporte para teléfono para carro",
+    category: "Electrónica",
+    description:
+      "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
+    image: "src/assets/categoria_hogar/kit_para_viaje.jfif",
+  },
+  {
+    id: 65,
+    name: "Corneta Karaoke",
+    category: "Electrónica",
+    description:
+      "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
+    image: "src/assets/categoria_hogar/láser_autonivelante_profesional.jfif",
+  },
+  {
+    id: 66,
+    name: "Corneta karaoke",
+    category: "Electrónica",
+    description:
+      "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
+    image: "src/assets/categoria_hogar/literna_recargable.jfif",
+  },
+  {
+    id: 67,
+    name: "Corneta con linterna integrada",
+    category: "Electrónica",
+    description:
+      "Corneta con linterna integrada, ideal para uso en exteriores y emergencias.",
+    image: "src/assets/categoria_hogar/luz_solar.jfif",
+  },
+  {
+    id: 68,
+    name: "Corneta",
+    category: "Electrónica",
+    description:
+      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+    image: "src/assets/categoria_hogar/maquina_afeitar.jfif",
+  },
+  {
+    id: 69,
+    name: "Corneta",
+    category: "Electrónica",
+    description:
+      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+    image: "src/assets/categoria_hogar/masajeador_de_pies.jfif",
+  },
+  {
+    id: 70,
+    name: "Corneta",
+    category: "Electrónica",
+    description:
+      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+    image: "src/assets/categoria_hogar/masajeador_mini.jfif",
+  },
+  {
+    id: 71,
+    name: "Go Pro",
+    category: "Electrónica",
+    description:
+      "Cámara de acción GoPro con alta resolución, resistente al agua y con estabilización de imagen avanzada para capturar tus aventuras más emocionantes.",
+    image: "src/assets/categoria_hogar/mini_afeitadora.jfif",
+  },
+  {
+    id: 72,
+    name: "TV BOX",
+    category: "Electrónica",
+    description:
+      "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
+    image: "src/assets/categoria_hogar/muñequera.jfif",
+  },
+  {
+    id: 73,
+    name: "Proyector portátil",
+    category: "Electrónica",
+    description:
+      "Proyector portátil con alta resolución and tecnología de imagen avanzada para una experiencia de visualización inmersiva.",
+    image: "src/assets/categoria_hogar/parches_analgesicos.jfif",
+  },
+  {
+    id: 74,
+    name: "Lampara de mesa",
+    category: "Electrónica",
+    description:
+      "Lámpara de mesa con diseño moderno y luz LED ahorradora de energía.",
+    image: "src/assets/categoria_hogar/pasta_termica.jfif",
+  },
+  {
+    id: 75,
+    name: "Llavaro reloj",
+    category: "Electrónica",
+    description:
+      "Llavero con reloj digital, ideal para llevar siempre contigo.",
+    image: "src/assets/categoria_hogar/pega_loca.jfif",
+  },
+  {
+    id: 76,
+    name: "Peso Metro",
+    category: "Electrónica",
+    description:
+      "Peso metro digital con pantalla LCD, ideal para medir peso de objetos pequeños con precisión.",
+    image: "src/assets/categoria_hogar/portavasos_ajustable.jfif",
+  },
+  {
+    id: 77,
+    name: "Secador de zapatos",
+    category: "Electrónica",
+    description:
+      "Secador de zapatos con tecnología de calor rápido y seguridad integrada.",
+    image: "src/assets/categoria_hogar/rodillera.jfif",
+  },
+  {
+    id: 78,
+    name: "Sopladora de aire",
+    category: "Electrónica",
+    description:
+      "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
+    image: "src/assets/categoria_hogar/termo_bebidas.jfif",
+  },
+  {
+    id: 79,
+    name: "Soporte para teléfono de mesa",
+    category: "Electrónica",
+    description:
+      "Soporte para teléfono de mesa con diseño moderno y material de alta calidad.",
+    image: "src/assets/categoria_hogar/termo_morado.jfif",
+  },
+  {
+    id: 80,
+    name: "Soplador de aire a presion",
+    category: "Electrónica",
+    description:
+      "Soplador de aire a presion potente para limpiar superficies y áreas difíciles de alcanzar.",
+    image: "src/assets/categoria_hogar/termo_reutilizable.jfif",
+  },
+  {
+    id: "81",
+    name: "TV BOX",
+    category: "Electrónica",
+    description:
+      "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
+    image: "src/assets/categoria_hogar/tobillera.jfif",
+  },
 ];
 
 export default function App() {
@@ -373,6 +690,7 @@ export default function App() {
         </div>
       </nav>
 
+      {/* SECCIÓN DEL CARRUSEL (HERO) */}
       <div className="relative h-[60vh] md:h-[70vh] w-full overflow-hidden bg-gray-900 group">
         {CAROUSEL_SLIDES.map((slide, index) => (
           <div
@@ -406,6 +724,7 @@ export default function App() {
           </div>
         ))}
 
+        {/* CONTROLES DE PUNTOS DEL CARRUSEL */}
         <div className="absolute bottom-5 left-0 right-0 z-30 flex justify-center space-x-3">
           {CAROUSEL_SLIDES.map((_, index) => (
             <button
@@ -418,6 +737,26 @@ export default function App() {
               }`}
             />
           ))}
+        </div>
+        <div className="absolute bottom-3 right-0 left-0 lg:left-auto lg:right-8 flex flex-col items-center lg:items-end text-center lg:text-right opacity-75 hover:opacity-100 transition-opacity z-20 pointer-events-none">
+          <p className="text-[9px] font-black text-slate-400 uppercase tracking-[0.2em] mb-0.5">
+            Developer
+          </p>
+          <a
+            href="https://github.com/lioverr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group pointer-events-auto flex items-center gap-2 bg-slate-900 text-white px-3.5 py-1.5 rounded-xl shadow-lg hover:bg-slate-800 transition-all active:scale-95 border border-white/10"
+          >
+            <span className="text-[10px] font-bold tracking-tight">
+              <span className="text-slate-400 font-medium">by</span> Liov
+            </span>
+            <div className="w-px h-2.5 bg-slate-700"></div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="group-hover:rotate-12 transition-transform">
+              <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+              <path d="M9 18c-4.51 2-5-2-7-2" />
+            </svg>
+          </a>
         </div>
       </div>
 
@@ -450,13 +789,10 @@ export default function App() {
                       />
                       <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
                     </div>
-                    <div className="p-5 flex flex-col flex-grow:1">
+                    <div className="p-5 flex flex-col flex-grow">
                       <h4 className="text-lg font-bold text-gray-900 mb-2 line-clamp-1">
                         {product.name}
                       </h4>
-                      <p className="text-blue-600 font-black text-xl mt-auto">
-                        ${product.price.toFixed(2)}
-                      </p>
                     </div>
                   </div>
                 ),
@@ -465,6 +801,7 @@ export default function App() {
           </div>
         ))}
       </main>
+
       <footer className="bg-gray-900 text-white py-10 text-center">
         <p className="text-gray-400">
           CAMIRL INVESTIGACIÓN TECNOLOGÍA, ELECTRÓNICA Y ALGO MAS
@@ -513,11 +850,7 @@ export default function App() {
               <h2 className="text-3xl font-extrabold text-gray-900 mb-2">
                 {selectedProduct.name}
               </h2>
-              <p className="text-4xl font-black text-blue-600 mb-6">
-                ${selectedProduct.price.toFixed(2)}
-              </p>
-
-              <div className="mb-8 flex-grow:1">
+              <div className="mb-8 flex-grow">
                 <h3 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">
                   Descripción
                 </h3>
@@ -540,7 +873,7 @@ export default function App() {
                   >
                     <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
                   </svg>
-                  Comunicate con nosotros via WhatsApp
+                  interesado? Contáctanos por WhatsApp
                 </a>
               </div>
             </div>
