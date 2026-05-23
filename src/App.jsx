@@ -361,306 +361,298 @@ const PRODUCTS = [
   },
   {
     id: 44,
-    name: "Corneta",
+    name: "Proyector astronauta",
     category: "Electrónica",
     description:
-      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+      "proyector portátil con alta resolución y tecnología de imagen avanzada para una experiencia de visualización inmersiva.",
     image: "/assets/proyector_astronauta.jfif",
   },
   {
     id: 45,
-    name: "Corneta",
+    name: "repetidor wifi",
     category: "Electrónica",
     description:
-      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+      "repetidor wifi con cobertura extendida y conexión rápida para una experiencia de navegación sin interrupciones.",
     image: "/assets/repetidor_wifi.jfif",
   },
   {
     id: 46,
-    name: "Go Pro",
+    name: "estimulador portátil",
     category: "Electrónica",
     description:
-      "Cámara de acción GoPro con alta resolución, resistente al agua y con estabilización de imagen avanzada para capturar tus aventuras más emocionantes.",
+      "estimulador portátil con tecnología de estimulación eléctrica, ideal para el alivio del dolor y la rehabilitación.",
     image: "/assets/estimulador_portatil.jfif",
   },
   {
     id: 47,
-    name: "TV BOX",
+    name: "multimetro digital",
     category: "Electrónica",
     description:
-      "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
+      "multimetro digital con pantalla LCD, ideal para medir voltaje, corriente y resistencia con precisión.",
     image: "/assets/multimetro.jfif",
   },
   {
     id: 48,
-    name: "Proyector portátil",
+    name: "arrancador de carros",
     category: "Electrónica",
     description:
-      "Proyector portátil con alta resolución y tecnología de imagen avanzada para una experiencia de visualización inmersiva.",
+      "Arrancador de carros con tecnología de arranque rápido y seguridad integrada.",
     image: "/assets/arrancador_carros.jfif",
   },
   {
     id: 49,
-    name: "Lampara de mesa",
+    name: "digital layer",
     category: "Electrónica",
     description:
-      "Lámpara de mesa con diseño moderno y luz LED ahorradora de energía.",
+      "digital layer con pantalla táctil y conectividad inalámbrica, ideal para dibujar, tomar notas y realizar tareas creativas con precisión.",
     image: "/assets/digital_layer.jfif",
   },
   {
     id: 50,
-    name: "Llavaro reloj",
+    name: "modulo amplificador",
     category: "Electrónica",
     description:
-      "Llavero con reloj digital, ideal para llevar siempre contigo.",
+      "Módulo amplificador con tecnología de audio avanzada, ideal para mejorar la calidad del sonido en sistemas de audio.",
     image: "/assets/Modulo_amplificador.jpeg",
   },
   {
     id: 51,
-    name: "Peso Metro",
+    name: "Modulo Pasivo",
     category: "Electrónica",
     description:
-      "Peso metro digital con pantalla LCD, ideal para medir peso de objetos pequeños con precisión.",
+      "Módulo pasivo con diseño compacto y eficiente, ideal para aplicaciones de audio y electrónica.",
     image: "/assets/Modulo_pasivo1.jpeg",
   },
   {
     id: 52,
-    name: "Secador de zapatos",
+    name: "placa pasiva",
     category: "Electrónica",
     description:
-      "Secador de zapatos con tecnología de calor rápido y seguridad integrada.",
+      "Placa pasiva con diseño compacto y eficiente, ideal para aplicaciones de audio y electrónica.",
     image: "/assets/placa_pasiva.jpeg",
   },
   {
     id: 53,
-    name: "Sopladora de aire",
+    name: "afeitadora ",
     category: "Electrónica",
     description:
-      "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
+      "Afeitadora mediana con tecnología de corte preciso y diseño ergonómico.",
     image: "/assets/categoria_hogar/afeitadora_mediana.jfif",
   },
   {
     id: 54,
-    name: "Soporte para teléfono de mesa",
+    name: "bateria recargable",
     category: "Electrónica",
     description:
-      "Soporte para teléfono de mesa con diseño moderno y material de alta calidad.",
+      "Batería recargable con alta capacidad y tecnología de carga rápida.",
     image: "/assets/categoria_hogar/bateria_recargable.jfif",
   },
   {
     id: 55,
-    name: "Soplador de aire a presion",
+    name: "clavora de acero",
     category: "Electrónica",
     description:
-      "Soplador de aire a presion potente para limpiar superficies y áreas difíciles de alcanzar.",
+      "Clavadora de acero con diseño robusto y tecnología de clavado eficiente, ideal para proyectos de construcción y bricolaje.",
     image: "/assets/categoria_hogar/Clavadora_ de_ acero.jfif",
   },
   {
     id: 56,
-    name: "TV BOX",
+    name: "codera",
     category: "Electrónica",
     description:
-      "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
+      "Codera con diseño ergonómico y material de alta calidad.",
     image: "/assets/categoria_hogar/codera.jfif",
   },
   {
     id: 57,
-    name: "Ventilador doble",
+    name: "collarin",
     category: "Electrónica",
     description:
-      "Ventilador doble con tecnología de enfriamiento avanzada y diseño moderno.",
-    image: "/assets/categoria_hogar/codera.jfif",
-  },
-  {
-    id: 58,
-    name: "Sopladora de aire",
-    category: "Electrónica",
-    description:
-      "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
+      "Collarín con diseño ergonómico y material de alta calidad, ideal para brindar soporte y comodidad en caso de lesiones cervicales.",
     image: "/assets/categoria_hogar/collarin.jfif",
   },
   {
-    id: 59,
-    name: "Soporte para teléfono de mesa",
+    id: 58,
+    name: "corrector de postura",
     category: "Electrónica",
     description:
-      "Soporte para teléfono de mesa con diseño moderno y material de alta calidad.",
+      "Corrector de postura con diseño ergonómico y material de alta calidad.",
     image: "/assets/categoria_hogar/corrector_de_postura.jfif",
   },
   {
-    id: 60,
-    name: "Soplador de aire a presion",
+    id: 59,
+    name: "corrector de postura",
     category: "Electrónica",
     description:
-      "Soplador de aire a presion potente para limpiar superficies y áreas difíciles de alcanzar.",
+      "Corrector de postura con diseño ergonómico y material de alta calidad.",
     image: "/assets/categoria_hogar/corrector_de_postura2.jfif",
   },
   {
     id: 61,
-    name: "TV BOX",
+    name: "escensia aromatica",
     category: "Electrónica",
     description:
-      "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
+      "Escencia aromática con fragancia relajante y duradera, ideal para crear un ambiente acogedor en tu hogar u oficina.",
     image: "/assets/categoria_hogar/escencia_aromatica.jfif",
   },
   {
     id: 62,
-    name: "Ventilador doble",
+    name: "estimulador muscular",
     category: "Electrónica",
     description:
-      "Ventilador doble con tecnología de enfriamiento avanzada y diseño moderno.",
+      "Estimulador muscular con tecnología de rehabilitación y diseño ergonómico.",
     image: "/assets/categoria_hogar/estimulador_muscular.jfif",
   },
   {
     id: 63,
-    name: "Soporte para teléfono para carro",
+    name: "headlamp",
     category: "Electrónica",
     description:
-      "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
+      "Headlamp con diseño compacto y tecnología de iluminación avanzada, ideal para actividades al aire libre y situaciones de emergencia.",
     image: "/assets/categoria_hogar/headlamp.jfif",
   },
   {
     id: 64,
-    name: "Soporte para teléfono para carro",
+    name: "kit para viaje",
     category: "Electrónica",
     description:
-      "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
+      "Kit para viaje con múltiples funciones y diseño compacto, ideal para viajeros exigentes.",
     image: "/assets/categoria_hogar/kit_para_viaje.jfif",
   },
   {
     id: 65,
-    name: "Corneta Karaoke",
+    name: "laser autonivelante profesional",
     category: "Electrónica",
     description:
-      "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
+      "Láser autonivelante profesional con alta precisión y tecnología de medición avanzada, ideal para proyectos de construcción y bricolaje.",
     image: "/assets/categoria_hogar/láser_autonivelante_profesional.jfif",
   },
   {
     id: 66,
-    name: "Corneta karaoke",
+    name: "linterna recargable",
     category: "Electrónica",
     description:
-      "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
+      "Linterna recargable con tecnología de iluminación avanzada y diseño compacto.",
     image: "/assets/categoria_hogar/literna_recargable.jfif",
   },
   {
     id: 67,
-    name: "Corneta con linterna integrada",
+    name: "luz solar",
     category: "Electrónica",
     description:
-      "Corneta con linterna integrada, ideal para uso en exteriores y emergencias.",
+      "Luz solar con panel solar integrado y tecnología de iluminación LED, ideal para iluminar áreas exteriores de manera sostenible y eficiente.",
     image: "/assets/categoria_hogar/luz_solar.jfif",
   },
   {
     id: 68,
-    name: "Corneta",
+    name: "maquina de afeitar",
     category: "Electrónica",
     description:
-      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+      "Máquina de afeitar eléctrica con tecnología de corte preciso y diseño ergonómico.",
     image: "/assets/categoria_hogar/maquina_afeitar.jfif",
   },
   {
     id: 69,
-    name: "Corneta",
+    name: "masajeador de pies",
     category: "Electrónica",
     description:
-      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+      "Masajeador de pies con tecnología de masaje y diseño ergonómico.",
     image: "/assets/categoria_hogar/masajeador_de_pies.jfif",
   },
   {
     id: 70,
-    name: "Corneta",
+    name: "masajeador mini",
     category: "Electrónica",
     description:
-      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+      "Masajeador mini con tecnología de masaje y diseño ergonómico.",
     image: "/assets/categoria_hogar/masajeador_mini.jfif",
   },
   {
     id: 71,
-    name: "Go Pro",
+    name: "mini afeitadora",
     category: "Electrónica",
     description:
-      "Cámara de acción GoPro con alta resolución, resistente al agua y con estabilización de imagen avanzada para capturar tus aventuras más emocionantes.",
+      "Mini afeitadora eléctrica con tecnología de corte preciso y diseño compacto, ideal para retoques rápidos y viajes.",
     image: "/assets/categoria_hogar/mini_afeitadora.jfif",
   },
   {
     id: 72,
-    name: "TV BOX",
+    name: "muñequera",
     category: "Electrónica",
     description:
-      "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
+      "Muñequera con diseño ergonómico y material de alta calidad, ideal para brindar soporte y comodidad en caso de lesiones en la muñeca.",
     image: "/assets/categoria_hogar/muñequera.jfif",
   },
   {
     id: 73,
-    name: "Proyector portátil",
+    name: "parche analgesico",
     category: "Electrónica",
     description:
-      "Proyector portátil con alta resolución and tecnología de imagen avanzada para una experiencia de visualización inmersiva.",
+      "Parche analgésico con tecnología de liberación controlada, ideal para aliviar el dolor muscular y articular.",
     image: "/assets/categoria_hogar/parches_analgesicos.jfif",
   },
   {
     id: 74,
-    name: "Lampara de mesa",
+    name: "pasta termica",
     category: "Electrónica",
     description:
-      "Lámpara de mesa con diseño moderno y luz LED ahorradora de energía.",
+      "Pasta térmica con alta conductividad térmica, ideal para mejorar la disipación de calor en componentes electrónicos y mantener un rendimiento óptimo.",
     image: "/assets/categoria_hogar/pasta_termica.jfif",
   },
   {
     id: 75,
-    name: "Llavaro reloj",
+    name: "pega loca",
     category: "Electrónica",
     description:
-      "Llavero con reloj digital, ideal para llevar siempre contigo.",
+      " Pega loca con fórmula de alta resistencia, ideal para reparaciones rápidas y duraderas en una variedad de materiales.",
     image: "/assets/categoria_hogar/pega_loca.jfif",
   },
   {
     id: 76,
-    name: "Peso Metro",
+    name: "portavasos ajustable",
     category: "Electrónica",
     description:
-      "Peso metro digital con pantalla LCD, ideal para medir peso de objetos pequeños con precisión.",
+      "Portavasos ajustable con diseño ergonómico y material de alta calidad, ideal para mantener tu bebida a la temperatura deseada.",
     image: "/assets/categoria_hogar/portavasos_ajustable.jfif",
   },
   {
     id: 77,
-    name: "Secador de zapatos",
+    name: "rodillera",
     category: "Electrónica",
     description:
-      "Secador de zapatos con tecnología de calor rápido y seguridad integrada.",
+      "Rodillera con diseño ergonómico y material de alta calidad, ideal para brindar soporte y comodidad en caso de lesiones en la rodilla.",
     image: "/assets/categoria_hogar/rodillera.jfif",
   },
   {
     id: 78,
-    name: "Sopladora de aire",
+    name: "termo de bebidas",
     category: "Electrónica",
     description:
-      "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
+      "Termo de bebidas con diseño moderno y material de alta calidad, ideal para mantener tu bebida a la temperatura deseada.",
     image: "/assets/categoria_hogar/termo_bebidas.jfif",
   },
   {
     id: 79,
-    name: "Soporte para teléfono de mesa",
+    name: "termo morado",
     category: "Electrónica",
     description:
-      "Soporte para teléfono de mesa con diseño moderno y material de alta calidad.",
+      "Termo morado con diseño moderno y material de alta calidad, ideal para mantener tu bebida a la temperatura deseada.",
     image: "/assets/categoria_hogar/termo_morado.jfif",
   },
   {
     id: 80,
-    name: "Soplador de aire a presion",
+    name: "termo reutilizable",
     category: "Electrónica",
     description:
-      "Soplador de aire a presion potente para limpiar superficies y áreas difíciles de alcanzar.",
+      "Termo reutilizable con diseño moderno y material de alta calidad, ideal para mantener tu bebida a la temperatura deseada.",
     image: "/assets/categoria_hogar/termo_reutilizable.jfif",
   },
   {
     id: "81",
-    name: "TV BOX",
+    name: "tobillera",
     category: "Electrónica",
     description:
-      "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
+      "Tobillera con diseño ergonómico y material de alta calidad, ideal para brindar soporte y comodidad en caso de lesiones en la tobilla.",
     image: "/assets/categoria_hogar/tobillera.jfif",
   },
 ];
