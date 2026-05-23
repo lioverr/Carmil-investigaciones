@@ -41,7 +41,7 @@ const PRODUCTS = [
   },
   {
     id: 3,
-    name: "Planca de cabello",
+    name: "Plancha de cabello",
     category: "Electrónica",
     description:
       "Plancha de cabello profesional con tecnología de cerámica avanzada para un alisado rápido y sin daños, perfecta para todo tipo de cabello.",
@@ -73,11 +73,11 @@ const PRODUCTS = [
   },
   {
     id: 7,
-    name: "Planca de cabello",
+    name: "Plancha de cabello",
     category: "Electrónica",
     description:
       "Plancha de cabello profesional con tecnología de cerámica avanzada para un alisado rápido y sin daños, perfecta para todo tipo de cabello.",
-    image: "/assets/Plancha.jfif",
+    image: "/assets/Plancha.jpg",
   },
   {
     id: 8,
@@ -125,7 +125,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Auriculares inalámbricos con cancelación de ruido activa y sonido de alta fidelidad.",
-    image: "/assets/audifonos_inalam_mario.jfif",
+    image: "/assets/audifonos_inalam_mario.jpg",
   },
   {
     id: 15,
@@ -149,7 +149,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Cámara de seguimiento automático con sensor de movimiento y lente de alta resolución.",
-    image: "/assets/cam_auto_tracking.jfif",
+    image: "/assets/cam_auto_tracking.jpg",
   },
   {
     id: 18,
@@ -157,7 +157,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
-    image: "/assets/car_telf_supp.jfif",
+    image: "/assets/car_telf_supp.jpg",
   },
   {
     id: 19,
@@ -165,7 +165,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
-    image: "/assets/car_telf_supp2.jfif",
+    image: "/assets/car_telf_supp2.jpg",
   },
   {
     id: 20,
@@ -224,19 +224,11 @@ const PRODUCTS = [
     image: "/assets/go_pro_temu.jfif",
   },
   {
-    id: 27,
-    name: "TV BOX",
-    category: "Electrónica",
-    description:
-      "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
-    image: "/assets/hdtv.jfif",
-  },
-  {
     id: 28,
-    name: "Proyector portátil",
+    name: "home trate",
     category: "Electrónica",
     description:
-      "Proyector portátil con alta resolución y tecnología de imagen avanzada para una experiencia de visualización inmersiva.",
+      "Home Trate con diseño moderno y tecnología de audio avanzada, ideal para disfrutar de tu música favorita en cualquier lugar de tu hogar.",
     image: "/assets/home trate.jfif",
   },
   {
@@ -257,10 +249,10 @@ const PRODUCTS = [
   },
   {
     id: 31,
-    name: "Peso Metro",
+    name: "Peso digital",
     category: "Electrónica",
     description:
-      "Peso metro digital con pantalla LCD, ideal para medir peso de objetos pequeños con precisión.",
+      "Peso digital con pantalla LCD, ideal para medir peso de objetos pequeños con precisión.",
     image: "/assets/peso_metro.jfif",
   },
   {
@@ -269,7 +261,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Secador de zapatos con tecnología de calor rápido y seguridad integrada.",
-    image: "/assets/shoe_dryer.jfif",
+    image: "/assets/shoe_dryer.jpg",
   },
   {
     id: 34,
@@ -301,30 +293,30 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Ventilador doble con tecnología de enfriamiento avanzada y diseño moderno.",
-    image: "/assets/ventilador_doble.jfif",
+    image: "/assets/ventilador_doble.jpg",
   },
   {
     id: 38,
-    name: "Soporte para teléfono para carro",
+    name: "calculadora cientifica",
     category: "Electrónica",
     description:
-      "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
+      "calculadora cientifica con funciones avanzadas, ideal para estudiantes y profesionales.",
     image: "/assets/calculadora.jfif",
   },
   {
     id: 39,
-    name: "Soporte para teléfono para carro",
+    name: "Adaptador para laptops",
     category: "Electrónica",
     description:
-      "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
+      "Adaptador para laptops con diseño compacto y eficiente, ideal para cargar dispositivos electrónicos.",
     image: "/assets/Adaptador_Laptops.jfif",
   },
   {
     id: 40,
-    name: "Corneta Karaoke",
+    name: "Microfo para Karaoke",
     category: "Electrónica",
     description:
-      "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
+      "Micrófono para karaoke con diseño moderno y tecnología de sonido avanzada, ideal para disfrutar de tus canciones favoritas en casa o en fiestas.",
     image: "/assets/microfono.jfif",
   },
   {
@@ -333,7 +325,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Adaptador de tipo C con diseño compacto y eficiente, ideal para cargar dispositivos electrónicos.",
-    image: "/assets/Adaptador_TipoC.jfif",
+    image: "/assets/Adaptador_TipoC.jpg",
   },
   {
     id: 42,
@@ -365,7 +357,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "repetidor wifi con cobertura extendida y conexión rápida para una experiencia de navegación sin interrupciones.",
-    image: "/assets/repetidor_wifi.jfif",
+    image: "/assets/repetidor_wifi.jpg",
   },
   {
     id: 46,
@@ -392,16 +384,8 @@ const PRODUCTS = [
     image: "/assets/arrancador_carros.jfif",
   },
   {
-    id: 49,
-    name: "digital layer",
-    category: "Electrónica",
-    description:
-      "digital layer con pantalla táctil y conectividad inalámbrica, ideal para dibujar, tomar notas y realizar tareas creativas con precisión.",
-    image: "/assets/digital_layer.jfif",
-  },
-  {
     id: 50,
-    name: "modulo amplificador",
+    name: "Modulo amplificador",
     category: "Electrónica",
     description:
       "Módulo amplificador con tecnología de audio avanzada, ideal para mejorar la calidad del sonido en sistemas de audio.",
@@ -441,7 +425,7 @@ const PRODUCTS = [
   },
   {
     id: 55,
-    name: "clavora de acero",
+    name: "Calvadora de acero",
     category: "Electrónica",
     description:
       "Clavadora de acero con diseño robusto y tecnología de clavado eficiente, ideal para proyectos de construcción y bricolaje.",
@@ -449,7 +433,7 @@ const PRODUCTS = [
   },
   {
     id: 56,
-    name: "codera",
+    name: "Codera",
     category: "Electrónica",
     description:
       "Codera con diseño ergonómico y material de alta calidad.",
@@ -457,7 +441,7 @@ const PRODUCTS = [
   },
   {
     id: 57,
-    name: "collarin",
+    name: "Collarín",
     category: "Electrónica",
     description:
       "Collarín con diseño ergonómico y material de alta calidad, ideal para brindar soporte y comodidad en caso de lesiones cervicales.",
@@ -473,7 +457,7 @@ const PRODUCTS = [
   },
   {
     id: 59,
-    name: "corrector de postura",
+    name: "Corrector de postura",
     category: "Electrónica",
     description:
       "Corrector de postura con diseño ergonómico y material de alta calidad.",
@@ -481,7 +465,7 @@ const PRODUCTS = [
   },
   {
     id: 61,
-    name: "escensia aromatica",
+    name: "Escensia aromatica",
     category: "Electrónica",
     description:
       "Escencia aromática con fragancia relajante y duradera, ideal para crear un ambiente acogedor en tu hogar u oficina.",
@@ -497,7 +481,7 @@ const PRODUCTS = [
   },
   {
     id: 63,
-    name: "headlamp",
+    name: "Headlamp",
     category: "Electrónica",
     description:
       "Headlamp con diseño compacto y tecnología de iluminación avanzada, ideal para actividades al aire libre y situaciones de emergencia.",
@@ -517,7 +501,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Láser autonivelante profesional con alta precisión y tecnología de medición avanzada, ideal para proyectos de construcción y bricolaje.",
-    image: "/assets/categoria_hogar/láser_autonivelante_profesional.jfif",
+    image: "/assets/categoria_hogar/láser_autonivelante_profesional.jpg",
   },
   {
     id: 66,
@@ -525,7 +509,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Linterna recargable con tecnología de iluminación avanzada y diseño compacto.",
-    image: "/assets/categoria_hogar/literna_recargable.jfif",
+    image: "/assets/categoria_hogar/literna_recargable.jpg",
   },
   {
     id: 67,
@@ -541,11 +525,11 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Máquina de afeitar eléctrica con tecnología de corte preciso y diseño ergonómico.",
-    image: "/assets/categoria_hogar/maquina_afeitar.jfif",
+    image: "/assets/categoria_hogar/maquina_afeitar.jpg",
   },
   {
     id: 69,
-    name: "masajeador de pies",
+    name: "Masajeador de pies",
     category: "Electrónica",
     description:
       "Masajeador de pies con tecnología de masaje y diseño ergonómico.",
@@ -561,7 +545,7 @@ const PRODUCTS = [
   },
   {
     id: 71,
-    name: "mini afeitadora",
+    name: "Mini afeitadora",
     category: "Electrónica",
     description:
       "Mini afeitadora eléctrica con tecnología de corte preciso y diseño compacto, ideal para retoques rápidos y viajes.",
@@ -569,7 +553,7 @@ const PRODUCTS = [
   },
   {
     id: 72,
-    name: "muñequera",
+    name: "Muñequera",
     category: "Electrónica",
     description:
       "Muñequera con diseño ergonómico y material de alta calidad, ideal para brindar soporte y comodidad en caso de lesiones en la muñeca.",
@@ -577,7 +561,7 @@ const PRODUCTS = [
   },
   {
     id: 73,
-    name: "parche analgesico",
+    name: "Parche analgésico",
     category: "Electrónica",
     description:
       "Parche analgésico con tecnología de liberación controlada, ideal para aliviar el dolor muscular y articular.",
@@ -585,7 +569,7 @@ const PRODUCTS = [
   },
   {
     id: 74,
-    name: "pasta termica",
+    name: "Pasta térmica",
     category: "Electrónica",
     description:
       "Pasta térmica con alta conductividad térmica, ideal para mejorar la disipación de calor en componentes electrónicos y mantener un rendimiento óptimo.",
@@ -593,7 +577,7 @@ const PRODUCTS = [
   },
   {
     id: 75,
-    name: "pega loca",
+    name: "Pega loca",
     category: "Electrónica",
     description:
       " Pega loca con fórmula de alta resistencia, ideal para reparaciones rápidas y duraderas en una variedad de materiales.",
@@ -601,7 +585,7 @@ const PRODUCTS = [
   },
   {
     id: 76,
-    name: "portavasos ajustable",
+    name: "Portavasos ajustable",
     category: "Electrónica",
     description:
       "Portavasos ajustable con diseño ergonómico y material de alta calidad, ideal para mantener tu bebida a la temperatura deseada.",
@@ -609,7 +593,7 @@ const PRODUCTS = [
   },
   {
     id: 77,
-    name: "rodillera",
+    name: "Rodillera",
     category: "Electrónica",
     description:
       "Rodillera con diseño ergonómico y material de alta calidad, ideal para brindar soporte y comodidad en caso de lesiones en la rodilla.",
@@ -617,7 +601,7 @@ const PRODUCTS = [
   },
   {
     id: 78,
-    name: "termo de bebidas",
+    name: "Termo de bebidas",
     category: "Electrónica",
     description:
       "Termo de bebidas con diseño moderno y material de alta calidad, ideal para mantener tu bebida a la temperatura deseada.",
@@ -625,7 +609,7 @@ const PRODUCTS = [
   },
   {
     id: 79,
-    name: "termo morado",
+    name: "Termo morado",
     category: "Electrónica",
     description:
       "Termo morado con diseño moderno y material de alta calidad, ideal para mantener tu bebida a la temperatura deseada.",
@@ -633,7 +617,7 @@ const PRODUCTS = [
   },
   {
     id: 80,
-    name: "termo reutilizable",
+    name: "Termo reutilizable",
     category: "Electrónica",
     description:
       "Termo reutilizable con diseño moderno y material de alta calidad, ideal para mantener tu bebida a la temperatura deseada.",
@@ -641,7 +625,7 @@ const PRODUCTS = [
   },
   {
     id: "81",
-    name: "tobillera",
+    name: "Tobillera",
     category: "Electrónica",
     description:
       "Tobillera con diseño ergonómico y material de alta calidad, ideal para brindar soporte y comodidad en caso de lesiones en la tobilla.",
@@ -669,7 +653,7 @@ export default function App() {
       <nav className="bg-white shadow-md sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-black text-purple-600 tracking-tighter">
-            CAMIRL<span className="text-blue-700"> INVESTIGACIÓN </span>
+            CAMIRL<span className="text-blue-700"> INVERSIONES CA </span>
           </h1>
         </div>
       </nav>
