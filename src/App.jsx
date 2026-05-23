@@ -4,19 +4,19 @@ import "./index.css";
 const CAROUSEL_SLIDES = [
   {
     id: 1,
-    image: "src/assets/Plancha.jfif",
+    image: "/assets/Plancha.jfif",
     title: "Todo en productos electrónicos",
     subtitle: "",
   },
   {
     id: 2,
-    image: "src/assets/Tecladomembrana.jfif",
+    image: "/assets/Tecladomembrana.jfif",
     title: "Tecnología para tu día a día",
     subtitle: "",
   },
   {
     id: 3,
-    image: "src/assets/Tecladogaming.jfif",
+    image: "/assets/Tecladogaming.jfif",
     title: "Todo para tu Hogar",
     subtitle: "",
   },
@@ -29,7 +29,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Manten tu dispositivo siempre cargado con este PowerBank de alta capacidad, perfecto para viajes y uso diario.",
-    image: "src/assets/Powerbang.jfif",
+    image: "/assets/Powerbang.jfif",
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Protege tus dispositivos contra cortes de energía con este Mini UPS compacto y eficiente, ideal para computadoras y equipos electrónicos.",
-    image: "src/assets/ups.jfif",
+    image: "/assets/ups.jfif",
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Plancha de cabello profesional con tecnología de cerámica avanzada para un alisado rápido y sin daños, perfecta para todo tipo de cabello.",
-    image: "src/assets/otraplancha.jfif",
+    image: "/assets/otraplancha.jfif",
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Bombillo recargable con iluminación LED de alta calidad, ideal para uso doméstico y exterior.",
-    image: "src/assets/bombillorecargable.jfif",
+    image: "/assets/bombillorecargable.jfif",
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Teclado gaming mecánico con retroiluminación RGB personalizable, diseñado para ofrecer una experiencia de juego superior y durabilidad.",
-    image: "src/assets/Tecladogaming.jfif",
+    image: "/assets/Tecladogaming.jfif",
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Teclado de oficina con diseño ergonómico y teclas silenciosas, ideal para largas jornadas de trabajo y productividad.",
-    image: "src/assets/Tecladomembrana.jfif",
+    image: "/assets/Tecladomembrana.jfif",
   },
   {
     id: 7,
@@ -77,7 +77,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Plancha de cabello profesional con tecnología de cerámica avanzada para un alisado rápido y sin daños, perfecta para todo tipo de cabello.",
-    image: "src/assets/Plancha.jfif",
+    image: "/assets/Plancha.jfif",
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Auriculares gaming con sonido envolvente 7.1, micrófono ajustable y diseño cómodo para largas sesiones de juego.",
-    image: "src/assets/audifonos_gamernt.jfif",
+    image: "/assets/audifonos_gamernt.jfif",
   },
   {
     id: 9,
@@ -93,7 +93,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Auriculares inalámbricos con diseño exclusivo de Avengers, sonido de alta calidad y batería de larga duración para disfrutar de tu música y juegos favoritos.",
-    image: "src/assets/audifonos_inalam_avengers.jfif",
+    image: "/assets/audifonos_inalam_avengers.jfif",
   },
   {
     id: 10,
@@ -101,7 +101,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Auriculares inalámbricos con diseño moderno en color azul, sonido de alta fidelidad y batería de larga duración para una experiencia auditiva excepcional.",
-    image: "src/assets/audifonos_inalam_azules.jfif",
+    image: "/assets/audifonos_inalam_azules.jfif",
   },
   {
     id: 11,
@@ -109,7 +109,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Auriculares inalámbricos con diseño moderno en color azul oscuro, sonido de alta fidelidad y batería de larga duración para una experiencia auditiva excepcional.",
-    image: "src/assets/audifonos_inalam_azulesoscuros.jfif",
+    image: "/assets/audifonos_inalam_azulesoscuros.jfif",
   },
   {
     id: 12,
@@ -117,7 +117,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Auriculares inalámbricos con diseño exclusivo de Kuromi, sonido de alta calidad y batería de larga duración para disfrutar de tu música y juegos favoritos.",
-    image: "src/assets/audifonos_inalam_kurumi.jfif",
+    image: "/assets/audifonos_inalam_kurumi.jfif",
   },
   {
     id: 14,
@@ -125,7 +125,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Auriculares inalámbricos con cancelación de ruido activa y sonido de alta fidelidad.",
-    image: "src/assets/audifonos_inalam_mario.jfif",
+    image: "/assets/audifonos_inalam_mario.jfif",
   },
   {
     id: 15,
@@ -133,7 +133,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Auriculares inalámbricos con diseño moderno en color rosa, sonido de alta fidelidad y batería de larga duración para una experiencia auditiva excepcional.",
-    image: "src/assets/audifonos_inalam_rosa.jfif",
+    image: "/assets/audifonos_inalam_rosa.jfif",
   },
   {
     id: 16,
@@ -141,7 +141,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Auriculares inalámbricos con diseño exclusivo de Stich, sonido de alta calidad y batería de larga duración para disfrutar de tu música y juegos favoritos.",
-    image: "src/assets/audifonos_stich.jfif",
+    image: "/assets/audifonos_stich.jfif",
   },
   {
     id: 17,
@@ -149,7 +149,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Cámara de seguimiento automático con sensor de movimiento y lente de alta resolución.",
-    image: "src/assets/cam_auto_tracking.jfif",
+    image: "/assets/cam_auto_tracking.jfif",
   },
   {
     id: 18,
@@ -157,7 +157,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
-    image: "src/assets/car_telf_supp.jfif",
+    image: "/assets/car_telf_supp.jfif",
   },
   {
     id: 19,
@@ -165,7 +165,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
-    image: "src/assets/car_telf_supp2.jfif",
+    image: "/assets/car_telf_supp2.jfif",
   },
   {
     id: 20,
@@ -173,7 +173,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
-    image: "src/assets/cornetica_karaoke.jfif",
+    image: "/assets/cornetica_karaoke.jfif",
   },
   {
     id: 21,
@@ -181,7 +181,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
-    image: "src/assets/cornetica_karaoke2.jfif",
+    image: "/assets/cornetica_karaoke2.jfif",
   },
   {
     id: 22,
@@ -189,7 +189,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta con linterna integrada, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/cornetica_liternita.jfif",
+    image: "/assets/cornetica_liternita.jfif",
   },
   {
     id: 23,
@@ -197,7 +197,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/cornetica.jfif",
+    image: "/assets/cornetica.jfif",
   },
   {
     id: 24,
@@ -205,7 +205,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/cornetica2.jfif",
+    image: "/assets/cornetica2.jfif",
   },
   {
     id: 25,
@@ -213,7 +213,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/cornetica3.jfif",
+    image: "/assets/cornetica3.jfif",
   },
   {
     id: 26,
@@ -221,7 +221,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Cámara de acción GoPro con alta resolución, resistente al agua y con estabilización de imagen avanzada para capturar tus aventuras más emocionantes.",
-    image: "src/assets/go_pro_temu.jfif",
+    image: "/assets/go_pro_temu.jfif",
   },
   {
     id: 27,
@@ -229,7 +229,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
-    image: "src/assets/hdtv.jfif",
+    image: "/assets/hdtv.jfif",
   },
   {
     id: 28,
@@ -237,7 +237,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Proyector portátil con alta resolución y tecnología de imagen avanzada para una experiencia de visualización inmersiva.",
-    image: "src/assets/home trate.jfif",
+    image: "/assets/home trate.jfif",
   },
   {
     id: 29,
@@ -245,7 +245,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Lámpara de mesa con diseño moderno y luz LED ahorradora de energía.",
-    image: "src/assets/lamp_mesa.jfif",
+    image: "/assets/lamp_mesa.jfif",
   },
   {
     id: 30,
@@ -253,7 +253,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Llavero con reloj digital, ideal para llevar siempre contigo.",
-    image: "src/assets/llavero_reloj.jfif",
+    image: "/assets/llavero_reloj.jfif",
   },
   {
     id: 31,
@@ -261,7 +261,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Peso metro digital con pantalla LCD, ideal para medir peso de objetos pequeños con precisión.",
-    image: "src/assets/peso_metro.jfif",
+    image: "/assets/peso_metro.jfif",
   },
   {
     id: 32,
@@ -269,7 +269,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Secador de zapatos con tecnología de calor rápido y seguridad integrada.",
-    image: "src/assets/shoe_dryer.jfif",
+    image: "/assets/shoe_dryer.jfif",
   },
   {
     id: 33,
@@ -277,7 +277,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
-    image: "src/assets/storm_machine.jfif",
+    image: "/assets/storm_machine.jfif",
   },
   {
     id: 34,
@@ -285,7 +285,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono de mesa con diseño moderno y material de alta calidad.",
-    image: "src/assets/supp_tel_mesa.jfif",
+    image: "/assets/supp_tel_mesa.jfif",
   },
   {
     id: 35,
@@ -293,7 +293,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soplador de aire a presion potente para limpiar superficies y áreas difíciles de alcanzar.",
-    image: "src/assets/storm_machine.jfif",
+    image: "/assets/storm_machine.jfif",
   },
   {
     id: 36,
@@ -301,7 +301,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
-    image: "src/assets/tv_box.jfif",
+    image: "/assets/tv_box.jfif",
   },
   {
     id: 37,
@@ -309,7 +309,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Ventilador doble con tecnología de enfriamiento avanzada y diseño moderno.",
-    image: "src/assets/ventilador_doble.jfif",
+    image: "/assets/ventilador_doble.jfif",
   },
   {
     id: 38,
@@ -317,7 +317,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
-    image: "src/assets/calculadora.jfif",
+    image: "/assets/calculadora.jfif",
   },
   {
     id: 39,
@@ -325,7 +325,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
-    image: "src/assets/Adaptador_Laptops.jfif",
+    image: "/assets/Adaptador_Laptops.jfif",
   },
   {
     id: 40,
@@ -333,7 +333,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
-    image: "src/assets/microfono.jfif",
+    image: "/assets/microfono.jfif",
   },
   {
     id: 41,
@@ -341,7 +341,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
-    image: "src/assets/Adaptador_TipoC.jfif",
+    image: "/assets/Adaptador_TipoC.jfif",
   },
   {
     id: 42,
@@ -349,7 +349,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta con linterna integrada, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/llavero_recargable.jfif",
+    image: "/assets/llavero_recargable.jfif",
   },
   {
     id: 43,
@@ -357,7 +357,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/Sistema_audio_motos.jfif",
+    image: "/assets/Sistema_audio_motos.jfif",
   },
   {
     id: 44,
@@ -365,7 +365,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/proyector_astronauta.jfif",
+    image: "/assets/proyector_astronauta.jfif",
   },
   {
     id: 45,
@@ -373,7 +373,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/repetidor_wifi.jfif",
+    image: "/assets/repetidor_wifi.jfif",
   },
   {
     id: 46,
@@ -381,7 +381,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Cámara de acción GoPro con alta resolución, resistente al agua y con estabilización de imagen avanzada para capturar tus aventuras más emocionantes.",
-    image: "src/assets/estimulador_portatil.jfif",
+    image: "/assets/estimulador_portatil.jfif",
   },
   {
     id: 47,
@@ -389,7 +389,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
-    image: "src/assets/multimetro.jfif",
+    image: "/assets/multimetro.jfif",
   },
   {
     id: 48,
@@ -397,7 +397,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Proyector portátil con alta resolución y tecnología de imagen avanzada para una experiencia de visualización inmersiva.",
-    image: "src/assets/arrancador_carros.jfif",
+    image: "/assets/arrancador_carros.jfif",
   },
   {
     id: 49,
@@ -405,7 +405,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Lámpara de mesa con diseño moderno y luz LED ahorradora de energía.",
-    image: "src/assets/digital_layer.jfif",
+    image: "/assets/digital_layer.jfif",
   },
   {
     id: 50,
@@ -413,7 +413,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Llavero con reloj digital, ideal para llevar siempre contigo.",
-    image: "src/assets/Modulo_amplificador.jpeg",
+    image: "/assets/Modulo_amplificador.jpeg",
   },
   {
     id: 51,
@@ -421,7 +421,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Peso metro digital con pantalla LCD, ideal para medir peso de objetos pequeños con precisión.",
-    image: "src/assets/Modulo_pasivo1.jpeg",
+    image: "/assets/Modulo_pasivo1.jpeg",
   },
   {
     id: 52,
@@ -429,7 +429,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Secador de zapatos con tecnología de calor rápido y seguridad integrada.",
-    image: "src/assets/placa_pasiva.jpeg",
+    image: "/assets/placa_pasiva.jpeg",
   },
   {
     id: 53,
@@ -437,7 +437,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
-    image: "src/assets/categoria_hogar/afeitadora_mediana.jfif",
+    image: "/assets/categoria_hogar/afeitadora_mediana.jfif",
   },
   {
     id: 54,
@@ -445,7 +445,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono de mesa con diseño moderno y material de alta calidad.",
-    image: "src/assets/categoria_hogar/bateria_recargable.jfif",
+    image: "/assets/categoria_hogar/bateria_recargable.jfif",
   },
   {
     id: 55,
@@ -453,7 +453,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soplador de aire a presion potente para limpiar superficies y áreas difíciles de alcanzar.",
-    image: "src/assets/categoria_hogar/Clavadora_ de_ acero.jfif",
+    image: "/assets/categoria_hogar/Clavadora_ de_ acero.jfif",
   },
   {
     id: 56,
@@ -461,7 +461,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
-    image: "src/assets/categoria_hogar/codera.jfif",
+    image: "/assets/categoria_hogar/codera.jfif",
   },
   {
     id: 57,
@@ -469,7 +469,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Ventilador doble con tecnología de enfriamiento avanzada y diseño moderno.",
-    image: "src/assets/categoria_hogar/codera.jfif",
+    image: "/assets/categoria_hogar/codera.jfif",
   },
   {
     id: 58,
@@ -477,7 +477,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
-    image: "src/assets/categoria_hogar/collarin.jfif",
+    image: "/assets/categoria_hogar/collarin.jfif",
   },
   {
     id: 59,
@@ -485,7 +485,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono de mesa con diseño moderno y material de alta calidad.",
-    image: "src/assets/categoria_hogar/corrector_de_postura.jfif",
+    image: "/assets/categoria_hogar/corrector_de_postura.jfif",
   },
   {
     id: 60,
@@ -493,7 +493,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soplador de aire a presion potente para limpiar superficies y áreas difíciles de alcanzar.",
-    image: "src/assets/categoria_hogar/corrector_de_postura2.jfif",
+    image: "/assets/categoria_hogar/corrector_de_postura2.jfif",
   },
   {
     id: 61,
@@ -501,7 +501,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
-    image: "src/assets/categoria_hogar/escencia_aromatica.jfif",
+    image: "/assets/categoria_hogar/escencia_aromatica.jfif",
   },
   {
     id: 62,
@@ -509,7 +509,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Ventilador doble con tecnología de enfriamiento avanzada y diseño moderno.",
-    image: "src/assets/categoria_hogar/estimulador_muscular.jfif",
+    image: "/assets/categoria_hogar/estimulador_muscular.jfif",
   },
   {
     id: 63,
@@ -517,7 +517,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
-    image: "src/assets/categoria_hogar/headlamp.jfif",
+    image: "/assets/categoria_hogar/headlamp.jfif",
   },
   {
     id: 64,
@@ -525,7 +525,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono para carro con ajuste seguro y diseño ergonómico.",
-    image: "src/assets/categoria_hogar/kit_para_viaje.jfif",
+    image: "/assets/categoria_hogar/kit_para_viaje.jfif",
   },
   {
     id: 65,
@@ -533,7 +533,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
-    image: "src/assets/categoria_hogar/láser_autonivelante_profesional.jfif",
+    image: "/assets/categoria_hogar/láser_autonivelante_profesional.jfif",
   },
   {
     id: 66,
@@ -541,7 +541,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
-    image: "src/assets/categoria_hogar/literna_recargable.jfif",
+    image: "/assets/categoria_hogar/literna_recargable.jfif",
   },
   {
     id: 67,
@@ -549,7 +549,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta con linterna integrada, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/categoria_hogar/luz_solar.jfif",
+    image: "/assets/categoria_hogar/luz_solar.jfif",
   },
   {
     id: 68,
@@ -557,7 +557,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/categoria_hogar/maquina_afeitar.jfif",
+    image: "/assets/categoria_hogar/maquina_afeitar.jfif",
   },
   {
     id: 69,
@@ -565,7 +565,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/categoria_hogar/masajeador_de_pies.jfif",
+    image: "/assets/categoria_hogar/masajeador_de_pies.jfif",
   },
   {
     id: 70,
@@ -573,7 +573,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
-    image: "src/assets/categoria_hogar/masajeador_mini.jfif",
+    image: "/assets/categoria_hogar/masajeador_mini.jfif",
   },
   {
     id: 71,
@@ -581,7 +581,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Cámara de acción GoPro con alta resolución, resistente al agua y con estabilización de imagen avanzada para capturar tus aventuras más emocionantes.",
-    image: "src/assets/categoria_hogar/mini_afeitadora.jfif",
+    image: "/assets/categoria_hogar/mini_afeitadora.jfif",
   },
   {
     id: 72,
@@ -589,7 +589,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
-    image: "src/assets/categoria_hogar/muñequera.jfif",
+    image: "/assets/categoria_hogar/muñequera.jfif",
   },
   {
     id: 73,
@@ -597,7 +597,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Proyector portátil con alta resolución and tecnología de imagen avanzada para una experiencia de visualización inmersiva.",
-    image: "src/assets/categoria_hogar/parches_analgesicos.jfif",
+    image: "/assets/categoria_hogar/parches_analgesicos.jfif",
   },
   {
     id: 74,
@@ -605,7 +605,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Lámpara de mesa con diseño moderno y luz LED ahorradora de energía.",
-    image: "src/assets/categoria_hogar/pasta_termica.jfif",
+    image: "/assets/categoria_hogar/pasta_termica.jfif",
   },
   {
     id: 75,
@@ -613,7 +613,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Llavero con reloj digital, ideal para llevar siempre contigo.",
-    image: "src/assets/categoria_hogar/pega_loca.jfif",
+    image: "/assets/categoria_hogar/pega_loca.jfif",
   },
   {
     id: 76,
@@ -621,7 +621,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Peso metro digital con pantalla LCD, ideal para medir peso de objetos pequeños con precisión.",
-    image: "src/assets/categoria_hogar/portavasos_ajustable.jfif",
+    image: "/assets/categoria_hogar/portavasos_ajustable.jfif",
   },
   {
     id: 77,
@@ -629,7 +629,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Secador de zapatos con tecnología de calor rápido y seguridad integrada.",
-    image: "src/assets/categoria_hogar/rodillera.jfif",
+    image: "/assets/categoria_hogar/rodillera.jfif",
   },
   {
     id: 78,
@@ -637,7 +637,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
-    image: "src/assets/categoria_hogar/termo_bebidas.jfif",
+    image: "/assets/categoria_hogar/termo_bebidas.jfif",
   },
   {
     id: 79,
@@ -645,7 +645,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soporte para teléfono de mesa con diseño moderno y material de alta calidad.",
-    image: "src/assets/categoria_hogar/termo_morado.jfif",
+    image: "/assets/categoria_hogar/termo_morado.jfif",
   },
   {
     id: 80,
@@ -653,7 +653,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Soplador de aire a presion potente para limpiar superficies y áreas difíciles de alcanzar.",
-    image: "src/assets/categoria_hogar/termo_reutilizable.jfif",
+    image: "/assets/categoria_hogar/termo_reutilizable.jfif",
   },
   {
     id: "81",
@@ -661,7 +661,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "streaming stick con acceso a miles de canales, películas y programas de televisión en alta definición.",
-    image: "src/assets/categoria_hogar/tobillera.jfif",
+    image: "/assets/categoria_hogar/tobillera.jfif",
   },
 ];
 
