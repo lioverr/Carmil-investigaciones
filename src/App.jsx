@@ -4,7 +4,7 @@ import "./index.css";
 const CAROUSEL_SLIDES = [
   {
     id: 1,
-    image: "/assets/Plancha.jpg",
+    image: "/assets/Adaptador_TipoC.jpg",
     title: "Todo en productos electrónicos",
     subtitle: "",
   },
@@ -485,7 +485,7 @@ const PRODUCTS = [
     category: "Electrónica",
     description:
       "Headlamp con diseño compacto y tecnología de iluminación avanzada, ideal para actividades al aire libre y situaciones de emergencia.",
-    image: "/assets/categoria_hogar/headlamp.jfif",
+    image: "/assets/categoria_hogar/headlamp.jpg",
   },
   {
     id: 64,
