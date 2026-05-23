@@ -121,7 +121,7 @@ const PRODUCTS = [
   },
   {
     id: 14,
-    name: "Mini UPS",
+    name: "Audifonos inalámbricos mario",
     category: "Electrónica",
     description:
       "Auriculares inalámbricos con cancelación de ruido activa y sonido de alta fidelidad.",
@@ -272,14 +272,6 @@ const PRODUCTS = [
     image: "/assets/shoe_dryer.jfif",
   },
   {
-    id: 33,
-    name: "Sopladora de aire",
-    category: "Electrónica",
-    description:
-      "Sopladora de aire potente para limpiar superficies y áreas difíciles de alcanzar.",
-    image: "/assets/storm_machine.jfif",
-  },
-  {
     id: 34,
     name: "Soporte para teléfono de mesa",
     category: "Electrónica",
@@ -337,26 +329,26 @@ const PRODUCTS = [
   },
   {
     id: 41,
-    name: "Corneta karaoke",
+    name: "Adaptador de tipo C",
     category: "Electrónica",
     description:
-      "Corneta karaoke portátil con micrófono inalámbrico, ideal para fiestas y reuniones familiares.",
+      "Adaptador de tipo C con diseño compacto y eficiente, ideal para cargar dispositivos electrónicos.",
     image: "/assets/Adaptador_TipoC.jfif",
   },
   {
     id: 42,
-    name: "Corneta con linterna integrada",
+    name: "mini linterna LED recargable de tipo llavero",
     category: "Electrónica",
     description:
-      "Corneta con linterna integrada, ideal para uso en exteriores y emergencias.",
+      "Mini linterna LED recargable de tipo llavero, ideal para llevar siempre contigo y tener una fuente de luz confiable en cualquier situación.",
     image: "/assets/llavero_recargable.jfif",
   },
   {
     id: 43,
-    name: "Corneta",
+    name: "Corneta anti robos para motos  ",
     category: "Electrónica",
     description:
-      "Corneta clásica con diseño tradicional, ideal para uso en exteriores y emergencias.",
+      "Corneta anti robos para motos con sonido potente y diseño compacto, ideal para proteger tu motocicleta contra robos y alertar a los transeúntes en caso de intento de robo.",
     image: "/assets/Sistema_audio_motos.jfif",
   },
   {
