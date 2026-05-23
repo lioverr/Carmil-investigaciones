@@ -4,7 +4,7 @@ import "./index.css";
 const CAROUSEL_SLIDES = [
   {
     id: 1,
-    image: "/assets/Plancha.jfif",
+    image: "/assets/Plancha.jpg",
     title: "Todo en productos electrónicos",
     subtitle: "",
   },
